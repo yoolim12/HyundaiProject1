@@ -1,0 +1,8 @@
+*{
+	font-family: 'Nanum Gothic';
+}
+thead th {
+	background-color: #ffffff;
+	color:bold black;
+	text-align:center;
+}
