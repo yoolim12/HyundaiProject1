@@ -1,0 +1,283 @@
+@charset "EUC-KR";
+
+.container {
+    padding-top: 130px;
+}
+
+.visual_business.meal {
+    background-image: url(../image/business/business_meal.jpg);
+}
+
+.visual_business {
+    height: 360px;
+    margin-bottom: 100px;
+    overflow: hidden;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.title_business {
+    padding-bottom: 54px;
+    margin-bottom: 60px;
+    font-size: 48px;
+    color: #000;
+    text-align: center;
+    position: relative;
+}
+
+.title_business:after {
+    display: inline-block;
+    content: "";
+    width: 98px;
+    height: 1px;
+    margin-left: -49px;
+    background-color: #030000;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+}
+
+.description_business {
+    font-size: 30px;
+    color: #000;
+    line-height: 60px;
+    text-align: center;
+}
+
+.business_info {
+    padding-top: 27px;
+    padding-bottom: 38px;
+    margin-top: 165px;
+    margin-bottom: 90px;
+    background-color: #46675c;
+}
+
+.business_info_list li {
+    float: left;
+    width: 298px;
+    height: 350px;
+    margin-left: 8px;
+    padding-top: 48px;
+    border: 1px solid #fff;
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+}
+
+.business_info_list li:first-child {
+    margin-left: 0;
+}
+
+.business_info_list strong {
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    font-size: 36px;
+}
+
+.business_info_list strong span {
+    font-size: 80px;
+}
+
+.business_text_area:first-child {
+    margin-top: 0;
+}
+
+.business_left .business_info_text {
+    float: left;
+    width: 460px;
+    margin-left: 40px;
+}
+
+.title_business_sub {
+    padding-bottom: 20px;
+    font-size: 30px;
+    color: #000;
+    font-weight: normal;
+    line-height: 48px;
+    position: relative;
+}
+
+.title_business_sub:after {
+    display: inline-block;
+    content: "";
+    width: 55px;
+    height: 1px;
+    background-color: #333;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.description_business_sub {
+    margin-top: 25px;
+    font-size: 16px;
+    color: #383838;
+    line-height: 30px;
+}
+
+.business_left .business_img {
+    float: right;
+}
+
+.business_text_area {
+    margin-top: 106px;
+}
+
+.business_right .business_info_text {
+    float: right;
+    width: 455px;
+}
+
+.title_business_sub {
+    padding-bottom: 20px;
+    font-size: 30px;
+    color: #000;
+    font-weight: normal;
+    line-height: 48px;
+    position: relative;
+}
+
+.title_business_sub:after {
+    display: inline-block;
+    content: "";
+    width: 55px;
+    height: 1px;
+    background-color: #333;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.description_business_sub {
+    margin-top: 25px;
+    font-size: 16px;
+    color: #383838;
+    line-height: 30px;
+}
+
+.business_right .business_img {
+    float: left;
+    margin-left: 40px;
+}
+
+.business_img {
+    overflow: hidden;
+}
+
+.meal_list {
+    margin-top: 128px;
+    margin-bottom: 123px;
+}
+
+.meal_list .f {
+    background-image: url(../image/business/meal_bg1.jpg);
+}
+
+.meal_list li {
+    float: left;
+    width: 33.33%;
+    height: 801px;
+    background-size: cover;
+    background-position: center top;
+}
+
+.meal_area {
+    height: 598px;
+    padding: 100px 40px 0;
+    margin: 44px 8.16% 0;
+    border: 1px solid #fff;
+    overflow-y: auto;
+}
+
+.meal_area .title_business_sub {
+    color: #fff;
+}
+
+.title_business_sub {
+    padding-bottom: 20px;
+    font-size: 30px;
+    color: #000;
+    font-weight: normal;
+    line-height: 48px;
+    position: relative;
+}
+
+.meal_area .title_business_sub:after {
+    background-color: #fff;
+}
+
+.title_business_sub:after {
+    display: inline-block;
+    content: "";
+    width: 55px;
+    height: 1px;
+    background-color: #333;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.meal_area .description_business_sub {
+    font-size: 14px;
+    color: #fff;
+}
+
+.description_business_sub {
+    margin-top: 25px;
+    font-size: 16px;
+    color: #383838;
+    line-height: 30px;
+}
+
+.meal_list .s {
+    background-image: url(../image/business/meal_bg2.jpg);
+}
+
+.meal_list .t {
+    background-image: url(../image/business/meal_bg3.jpg);
+}
+
+.meal_list li {
+    float: left;
+    width: 33.33%;
+    height: 801px;
+    background-size: cover;
+    background-position: center top;
+}
+
+.meal_area {
+    height: 598px;
+    padding: 100px 40px 0;
+    margin: 44px 8.16% 0;
+    border: 1px solid #fff;
+    overflow-y: auto;
+}
+
+.clear:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.business_greating {
+    height: 100%;
+    margin-top: 130px;
+    background: url(../image/business/greating_bg.jpg) no-repeat center top;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+}
+
+.title_greating {
+    padding-top: 280px;
+    font-size: 48px;
+}
+
+.description_greating {
+    margin-top: 110px;
+    font-size: 24px;
+    line-height: 48px;
+}

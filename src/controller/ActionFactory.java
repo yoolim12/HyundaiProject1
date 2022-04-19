@@ -1,3 +1,5 @@
+//작업자 : 공동
+
 package controller;
 import controller.Action.*;
 public class ActionFactory {
@@ -16,23 +18,41 @@ public class ActionFactory {
 		Action action=null;
 		System.out.println("ActionFactory  :" + command);
 		
-		if (command.equals("green_food")) {
+		if (command.equals("green_food")) {			// 회사소개 커맨드
 			action = new companyIntro();
 		}
-		else if(command.equals("login1")) {//회원가입 커맨드
-			action=new register1();
+		else if(command.equals("Sub2_First")) {		// 푸드서비스사업 커맨드
+			action = new Sub2_First();
 		}
-		else if(command.equals("login2")){ // 로그인 커맨드
-			action=new register2();
+		else if(command.equals("Sub2_Second")) {	// 외식사업 커맨드
+			action = new Sub2_Second();
 		}
-		else if(command.equals("board")){ //게시판 커맨드
-			action=new board();
+		else if(command.equals("Sub3_First")) {		// 물류시스템 커맨드
+			action = new Sub3_First();
 		}
-		else if(command.equals("logout")) {
-			action=new logout();
+		else if(command.equals("Sub3_Second")) {	// 식품안전시스템 커맨드
+			action = new Sub3_Second();
 		}
-		else if(command.equals("admin_login")) {
-			action=new admin_login();
+		else if(command.equals("Sub4_First")) {	// 브랜드이야기 커맨드
+			action = new Sub4_First();
+		}
+		else if(command.equals("Complain")) {	// 고객의 소리 커맨드(회원 로그인시 폼 화면 나옴)
+			action = new Complain();
+		}
+		else if(command.equals("MemberJoin")) {//회원가입 커맨드
+			action=new MemberJoin();
+		}
+		else if(command.equals("Login")){ // 로그인 커맨드
+			action=new Login();
+		}
+		else if(command.equals("Logout")) { //로그아웃 커맨드
+			action=new Logout();
+		}
+		else if(command.equals("Modify")) {	// 회원수정 커맨드
+			action=new Modify();
+		}
+		else if(command.equals("AdminLogin")) { // 관리자 로그인 커맨드
+			action=new AdminLogin();
 		}
 		return action;
 	}

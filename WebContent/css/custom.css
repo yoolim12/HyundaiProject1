@@ -1,8 +1,74 @@
+/*
 *{
-	font-family: 'Nanum Gothic';
+   font-family: 'Nanum Gothic';
 }
+
+.container {
+   margin-top: 100px;
+   padding-top: 100px;
+}
+
 thead th {
-	background-color: #ffffff;
-	color:bold black;
-	text-align:center;
+   background-color: #ffffff;
+   color:bold black;
+   text-align:center;
+}
+*/
+
+*{
+   font-family: 'Nanum Gothic';
+}
+
+.wrapper {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+}
+
+.container {
+   margin-top: 100px;
+   padding-top: 100px;
+}
+
+
+
+form {
+   border: 1px solid #dddddd;
+   text-align: center;
+}
+
+table {
+   display: ;
+   text-align: center;
+}
+
+
+
+table tbody tr {
+  height: 30px;
+}
+
+thead th {
+   background-color: #ffffff;
+   color: bold black;
+   text-align:center;
+   padding-top: 30px;
+   margin-bottom: 30px;
+}
+
+
+
+tr {
+   text-align: center;
+}
+
+
+
+td {
+   text-align: center !important;
+}
+
+td > * {
+   display: inline-block;
 }

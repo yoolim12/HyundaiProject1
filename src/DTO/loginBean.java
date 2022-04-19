@@ -1,39 +1,28 @@
+//작업자 : 이승연
 package DTO;
 
-public class loginBean {
-	private String userID;
-	private String userPassword1;
-
-
-
-	public String getUserID() {
-		return userID;
-	}
-
-
-
-	public void setUserID(String userID) {
-		this.userID = userID;
-	}
-
-
-
-	public String getUserPassword1() {
-		return userPassword1;
-	}
-
-
-
-	public void setUserPassword1(String userPassword1) {
-		this.userPassword1 = userPassword1;
-	}
-
-
-
-	public loginBean() {
+// 멤버(회원) 로그인시 필요한 값들을 저장해주는 객체
+public class LoginBean {
+	private String id;
+	private String password;
 	
+	public LoginBean() {
+		
 	}
 	
+	
+	public String getId() {
+		return id;
+	}
+	public void setId(String id) {
+		this.id = id;
+	}
+	public String getPassword() {
+		return password;
+	}
+	public void setPassword(String password) {
+		this.password = password;
+	}
 	
 	
 }

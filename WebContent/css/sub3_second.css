@@ -1,0 +1,151 @@
+
+
+.sub_layout{/*width:1143px;margin:0 auto;*/ padding:130px 0 0;}
+
+.sub_visual_6{ /* background:url("/Contents/images/visual/visual_6.jpg") no-repeat right top;*/}
+
+.sub_contents{width:1144px;margin:0 auto;}
+
+.title_sub{
+ font-size:50px;color:#000;font-weight:bold;text-align:center;
+  /* background:url("/Contents/images/m/icon/icon_green_line.jpg") no-repeat left top;*/
+}
+.sub_description{line-height:1.9;font-size:24px;color:#737373;text-align:center;}
+.sub_description.new{margin:45px 0 150px;}
+
+.title_description{padding:115px 0 150px;}
+.title_description .sub_description{margin-top:60px;}
+.title_description + .tab_list{margin:-55px 0 45px;}
+.title_description + .sub_description.new{margin-top:-90px;}
+
+.hierarchy_list{width:1143px;margin:30px auto 0;*zoom:1;}
+.hierarchy_list:after{content:"";display:block;clear:both;}
+.hierarchy_list li{float:left;height:20px;padding-left:30px;margin-left:21px;line-height:normal;
+  background:url("../image/infra/icon_hierarchy.png") no-repeat left center;
+}
+.hierarchy_list li:first-child{padding-left:0;margin-left:0;background-image:none;}
+.hierarchy_list li img{display:inline-block;margin-left:10px;vertical-align:top;}
+
+.hierarchy_list .icon_home{display:block;}
+
+.hierarchy_list .depth_2{background-color:transparent;}
+
+.m_hierarchy{display:block;height:auto;padding-left:0;margin-right:0;
+  background-image:none;
+  font-size:15px;color:#666;line-height:20px;
+}
+.m_hierarchy img{display:inline;}
+
+.hierarchy_list .depth_3 > a{color:#0a9882;}
+
+.t_block_hierarchy{display:block;}
+
+.hierarchy_depth{display:none;}
+
+/* 탭 */
+.tab_list{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;*zoom:1;}
+.tab_list:after{content:"";display:block;clear:both;}
+.tab_list li{display:table;margin-left:-1px;padding:0 20px;min-width:165px;background-color:#fff;border:1px solid #ddd;box-sizing:border-box;transition:all 0.5s;}
+.tab_list li a{display:table-cell;width:100%;height:53px;font-size:22px;color:#555;text-align:center;vertical-align:middle;transition:all 0.5s;}
+.tab_list li:first-child{margin-left:-1px;}
+.tab_list li:hover,
+.tab_list .on{background-color:#444b55;border:1px solid #444b55;position:relative;}
+.tab_list li:hover a,
+.tab_list .on a{color:#fff;}
+
+.icon_tab_bubble{display:none;}
+/* .tab_list .on .icon_tab_bubble{display:block;margin-left:-8px;position:absolute;left:50%;bottom:-11px;} */
+
+/* 물류시스템 */
+.distribution_map_area{width:417px;margin:55px auto 0;padding-bottom:334px;position:relative;}
+
+.distri_center{text-align:left;position:absolute;}
+.distri_center dl{margin-top:15px;}
+.distri_center dt{margin-bottom:8px;font-size:20px;color:#333;font-weight:bold;}
+.distri_center li{background:url("/Contents/images/icon/icon_gray_arrow.png") no-repeat left 5px;padding-left:10px;
+  font-size:13px;color:#666;line-height:18px;
+}
+.distri_center li span{display:block;margin-left:32px;}
+
+.distri_center1{left:-287px;top:56px;}
+.distri_center2{left:-287px;top:327px;}
+.distri_center3{left:-70px;top:620px;}
+.distri_center4{right:-110px;top:620px;}
+.distri_center5{right:-364px;top:340px;}
+.distri_center6{right:-364px;top:67px;}
+
+
+.manage_discri_list{margin-top:28px;text-align:left;*zoom:1;}
+.manage_discri_list:after{content:"";display:block;clear:both;}
+.manage_discri_list li{float:left;width:316px;height:376px;margin-left:7px;padding-left:30px;padding-right:30px;}
+.manage_discri_list li:first-child{margin-left:0;}
+
+.manage_discri_list .manage_discri1{height:246px;padding-top:130px;
+  background:url("../image/infra/img_manage_discri1.jpg") no-repeat left top;
+}
+.manage_discri_list .manage_discri2{height:246px;padding-top:130px;
+  background:url("../image/infra/img_manage_discri2.jpg") no-repeat left top;
+}
+.manage_discri_list .manage_discri3{height:263px;padding-top:113px;
+  background:url("../image/infra/img_manage_discri3.jpg") no-repeat left top;
+}
+
+.manage_discri_list dt{margin-bottom:17px;font-size:25px;color:#fff;line-height:35px;}
+.manage_discri_list dd{font-size:13px;color:#fff;line-height:25px;}
+
+.distribution_process{margin-top:40px;padding-top:455px;background:url("../image/infra/distribution_process.jpg") no-repeat center top;}
+
+/* 식품안전시스템 - 개요 */
+.infra_text_area{padding-top:50px;margin-top:50px;border-top:1px dashed #ccc;text-align:center;}
+.infra_text_area:first-child{padding-top:0;margin-top:0;border-top:0;}
+
+.title_infra{font-size:35px;color:#333;font-weight:normal;text-align:center;}
+.text_infra{margin-top:20px;font-size:17px;color:#666;line-height:25px;text-align:center;}
+.text_infra .point{color:#00816d;}
+
+.img_3depth{margin:50px auto 0;text-align:center;}
+
+.list_3step{width:1074px;padding-left:70px;padding-bottom:42px;margin:50px auto 0;*zoom:1;}
+.list_3step:after{content:"";display:block;clear:both;}
+.list_3step li{float:left;background:url("/Contents/images/infra/arrow_3step.jpg") no-repeat left 97px;
+  padding-left:77px;margin-left:55px;
+}
+.list_3step li:first-child{background-image:none;padding-left:0;margin-left:0;}
+
+.step_1{width:247px;height:137px;padding-top:110px;background:url("/Contents/images/infra/icon_3step_1.jpg") no-repeat left top;}
+.step_2{width:247px;height:137px;padding-top:110px;background:url("/Contents/images/infra/icon_3step_2.jpg") no-repeat left top;}
+.step_3{width:247px;height:137px;padding-top:110px;background:url("/Contents/images/infra/icon_3step_3.jpg") no-repeat left top;}
+
+.list_3step strong{display:block;font-size:23px;color:#333;font-weight:bold;text-align:center;}
+.list_3step span{display:block;margin-top:6px;font-size:16px;color:#666;line-height:21px;text-align:center;}
+
+
+.haccp_list{width:1007px;padding-left:137px;padding-top:14px;margin:0 auto 60px;*zoom:1;}
+.haccp_list:after{content:"";display:block;clear:both;}
+.haccp_list li{float:left;margin-left:163px;text-align:center;}
+.haccp_list li:first-child{margin-left:0;}
+.haccp_list dl{margin-top:15px;}
+.haccp_list dt{background:url("../image/infra/line_haccp.jpg") no-repeat center bottom;padding-bottom:15px;
+  font-size:26px;color:#ffa800;
+}
+.haccp_list dd{margin-top:12px;font-size:14px;color:#70696b;line-height:21px;}
+
+.haccp_step_img{margin-top:40px;padding-bottom:42px;text-align:center;}
+
+.infra_safe_area{margin-top:48px;}
+.safe_process{width:1019px;height:408px;margin:32px auto 0;
+  background:url("../image/infra/safe_process_bg.jpg") no-repeat left top;position:relative;
+}
+.safe_process li{width:290px;height:140px;padding-top:55px;text-align:center;}
+
+.safe_process .process_1{position:absolute;left:0;top:0;}
+.safe_process .process_2{position:absolute;left:365px;top:0;}
+.safe_process .process_3{height:159px;padding-top:35px;position:absolute;right:0;top:0;}
+.safe_process .process_4{position:absolute;left:182px;bottom:0;}
+.safe_process .process_5{height:155px;padding-top:40px;position:absolute;left:546px;bottom:0;}
+
+.safe_process dt{background:url("../image/infra/line_safe_dt.jpg") no-repeat center bottom;padding-bottom:12px;margin-bottom:7px;
+  font-size:23px;color:#333;font-weight:bold;
+}
+.safe_process dd{font-size:15px;color:#666;line-height:21px;}
+

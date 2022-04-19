@@ -1,30 +1,23 @@
+//작업자 : 이승연
 package DTO;
 
 import java.sql.Date;
 
 
-//로그인
+// 고객의 소리(리뷰) 저장시 필요한 값들을 저장해주는 객체
 public class reviewBean{
-	private String review_num;
+	private int review_num;
 	private String category;
 	private String title;
-	private String id;
-	private String content;
+	private String details;
 	private String name;
-	private String ph;
+	private String tel;
 	private String email;
 	private Date joinDate;
-	
-	public String getId() {
-		return id;
-	}
-	public void setId(String id) {
-		this.id = id;
-	}
-	public String getReview_num() {
+	public int getReview_num() {
 		return review_num;
 	}
-	public void setReview_num(String review_num) {
+	public void setReview_num(int review_num) {
 		this.review_num = review_num;
 	}
 	public String getCategory() {
@@ -39,11 +32,11 @@ public class reviewBean{
 	public void setTitle(String title) {
 		this.title = title;
 	}
-	public String getContent() {
-		return content;
+	public String getDetails() {
+		return details;
 	}
-	public void setContent(String content) {
-		this.content = content;
+	public void setDetails(String details) {
+		this.details = details;
 	}
 	public String getName() {
 		return name;
@@ -51,11 +44,11 @@ public class reviewBean{
 	public void setName(String name) {
 		this.name = name;
 	}
-	public String getPh() {
-		return ph;
+	public String getTel() {
+		return tel;
 	}
-	public void setPh(String ph) {
-		this.ph = ph;
+	public void setTel(String tel) {
+		this.tel = tel;
 	}
 	public String getEmail() {
 		return email;
@@ -69,6 +62,7 @@ public class reviewBean{
 	public void setJoinDate(Date joinDate) {
 		this.joinDate = joinDate;
 	}
+	
 	
 	
 }

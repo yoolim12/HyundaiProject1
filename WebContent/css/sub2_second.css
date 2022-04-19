@@ -1,0 +1,332 @@
+@charset "EUC-KR";
+
+.visual_business.eatout {
+    background-image: url(../image/business/business_eatout.jpg);
+}
+
+.visual_business {
+    height: 360px;
+    margin-bottom: 100px;
+    overflow: hidden;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.title_business {
+    padding-bottom: 54px;
+    margin-bottom: 60px;
+    font-size: 48px;
+    color: #000;
+    text-align: center;
+    position: relative;
+}
+
+.title_business:after {
+    display: inline-block;
+    content: "";
+    width: 98px;
+    height: 1px;
+    margin-left: -49px;
+    background-color: #030000;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+}
+
+.description_business {
+    font-size: 30px;
+    color: #000;
+    line-height: 60px;
+    text-align: center;
+}
+
+.business_info {
+    padding-top: 27px;
+    padding-bottom: 38px;
+    margin-top: 165px;
+    margin-bottom: 90px;
+    background-color: #46675c;
+}
+
+.business_info_list li:first-child {
+    margin-left: 0;
+}
+
+.business_info_list li {
+    float: left;
+    width: 298px;
+    height: 350px;
+    margin-left: 8px;
+    padding-top: 48px;
+    border: 1px solid #fff;
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+}
+
+.business_info_list strong {
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    font-size: 36px;
+}
+
+.business_info_list strong span {
+    font-size: 80px;
+}
+
+
+.global_brand_area_joe_eataly {
+    height: 999px;
+    border-top: 3px solid #263832;
+    background: url(../image/business/global_brand_joe_eataly_bg.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.title_eatout2 {
+    width: 1145px;
+    margin-top: 65px;
+    padding-bottom: 45px;
+    font-size: 36px;
+    color: #fff;
+    font-weight: normal;
+    line-height: 48px;
+    position: relative;
+}
+
+.title_eatout2:after {
+    display: inline-block;
+    content: "";
+    width: 56px;
+    height: 1px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.global_brand_area_joe_eataly .food_distri_list {
+    width: 1145px;
+}
+
+.food_distri_list {
+    width: 1100px;
+    overflow: hidden;
+}
+
+.global_brand_area_joe_eataly .food_distri_list li {
+    margin-left: 144px;
+}
+
+.food_distri_list li:first-child {
+    margin-left: 0;
+}
+
+.food_distri_list li {
+    float: left;
+    width: 500px;
+    margin-left: 100px;
+}
+
+.food_distri_list .meal_area {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.global_brand_area_joe_eataly .meal_area {
+    background-color: rgba(0,0,0,0.38);
+}
+
+.meal_area {
+    height: 598px;
+    padding: 100px 40px 0;
+    margin: 44px 8.16% 0;
+    border: 1px solid #fff;
+    overflow-y: auto;
+}
+
+.meal_area .title_business_sub {
+    color: #fff;
+}
+
+.title_business_sub {
+    padding-bottom: 20px;
+    font-size: 30px;
+    color: #000;
+    font-weight: normal;
+    line-height: 48px;
+    position: relative;
+}
+
+.meal_area .title_business_sub:after {
+    background-color: #fff;
+}
+
+.title_business_sub:after {
+    display: inline-block;
+    content: "";
+    width: 55px;
+    height: 1px;
+    background-color: #333;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.meal_area .description_business_sub {
+    font-size: 14px;
+    color: #fff;
+}
+
+.description_business_sub {
+    margin-top: 25px;
+    font-size: 16px;
+    color: #383838;
+    line-height: 30px;
+}
+
+.enter_store {
+    margin-top: 15px;
+}
+
+.enter_store dt {
+    color: #fff;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+.enter_store dd {
+    color: #fff;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+.global_brand_area2 {
+    height: 999px;
+    border-top: 3px solid #263832;
+    background: url(../image/business/global_brand2_bg.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.global_brand_area2 .food_distri_list {
+    width: 1145px;
+}
+
+.food_distri_list {
+    width: 1100px;
+    overflow: hidden;
+}
+
+.global_brand_area2 .meal_area {
+    background-color: rgba(0,0,0,0.38);
+}
+
+.food_court_area2 {
+    position: relative;
+}
+
+.food_court_area2 .title_eatout {
+    margin-top: 0;
+    margin-left: -572.5px;
+    position: absolute;
+    left: 50%;
+    top: 60px;
+}
+
+.title_eatout {
+    width: 1145px;
+    margin-top: 65px;
+    padding-bottom: 45px;
+    font-size: 36px;
+    color: #fff;
+    font-weight: normal;
+    line-height: 48px;
+    position: relative;
+}
+
+.title_eatout span {
+    display: block;
+    font-size: 30px;
+    line-height: 48px;
+}
+
+.title_eatout:after {
+    display: inline-block;
+    content: "";
+    width: 56px;
+    height: 1px;
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.food_court_area2 .meal_list {
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.meal_list {
+    margin-top: 128px;
+    margin-bottom: 123px;
+}
+
+.food_court_area2 .meal_list .f {
+    background-image: url(../image/business/food_court_bg1.jpg);
+}
+
+.food_court_area2 .meal_list li {
+    height: 1002px;
+}
+
+.meal_list .f {
+    background-image: url(../image/business/meal_bg1.jpg);
+}
+
+.food_court_area2 .meal_area {
+    margin-top: 247px;
+    background-color: rgba(0,0,0,0.38);
+}
+
+.food_court_area2 .meal_list .s {
+    background-image: url(../image/business/food_court_bg2.jpg);
+}
+
+.meal_list .s {
+    background-image: url(../image/business/meal_bg2.jpg);
+}
+
+.meal_list li {
+    float: left;
+    width: 33.33%;
+    height: 801px;
+    background-size: cover;
+    background-position: center top;
+}
+
+.food_court_area2 .meal_list .t {
+    background-image: url(../image/business/food_court_bg3.jpg);
+}
+
+.meal_list .t {
+    background-image: url(../image/business/meal_bg3.jpg);
+}
+
+.fine_dining_area {
+    height: 999px;
+    border-top: 3px solid #263832;
+    background: url(../image/business/fine_dining_bg.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.fine_dining_area .food_distri_list {
+    width: 1145px;
+}
+
+.fine_dining_area .meal_area {
+    background-color: rgba(0,0,0,0.38);
+}
+
+
+
